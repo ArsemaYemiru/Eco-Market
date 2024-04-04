@@ -1,0 +1,83 @@
+#root {
+    position: relative;
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -100;
+}
+
+
+.signin-box {
+    width: 390px;
+    height: 370px;
+    background-color:#525e6ab3;
+    border-radius: 15px;
+  }
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+    width: 280px;
+    margin: 0 auto;
+    color: white;
+  }
+
+  form {
+    width: 280px;
+    margin: 0 auto;
+  }
+  form label {
+    display: flex;
+    margin-top: 10px;
+    font-size: 18px;
+    width: 280px;
+    color: white;
+  }
+  input[type="text"], input[type="password"] {
+    width: 280px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 9px;
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    font-size: 15px;
+  }
+
+
+  input[type="button"] {
+    width: 280px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    color: #49c1a2;
+    font-size: 18px;
+  }
+  
+  .action{
+    display: flex;
+    justify-content: center;
+  }
+  p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    width: 280px;
+    margin: 0 auto;
+  }
+  .para-1 {
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    margin-top: 10px;
+   
+  }
+  .para-1 a {
+    color: rgba(72,202, 228, 1);
+  }
